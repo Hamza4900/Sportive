@@ -6,21 +6,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "25897320"))
-API_HASH = getenv("API_HASH", "cb47901d1a944cd823bd5154c9e0bc13")
-BOT_TOKEN = getenv("BOT_TOKEN", "7002688949:AAGPeeJLRFQr6p94QRCIs2qoKq52KXWt_EM")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001805137487"))
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
 OWNER_ID = int(getenv("OWNER_ID", 1730815895))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Hamza4994/azra",
+    "",
 )
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/askkoleji")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/gurcistanarshiwee")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
-STRING1 = getenv("STRING_SESSION", "BQCagjhCqp_Ab8tQgFQT0WMUT0Jj8I99FAaS2Q2te_Y-R8vI2j6-Y24ILcXkX98TfAcAWfLt4OGJvxOmUr_2jyRgqq82RxX0VsCuKyP-A8P3uCt7WKD_-Yz-7uqFq62E0Il7M6R8XWJCs6YAcnSPYOESoPUS_Wm4a3ipJ2L2YRR_e_iA7y366qM6mbPwh-VuH1B5VrFt19QzSac18UeSREqZ9RJgbJi5FpMf6qj5hJLzQ0NnBGa5mgyLWrzsd3nTj8bXUCUp49ZREcxOJXruCN_Fuu6U0ygqC4hZ9i1ymp1O1SQr_x4vhBgxDg6wgEneQrmZiOPwvyNU70VWUpXeuSzDAAAAAaa9138A")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
