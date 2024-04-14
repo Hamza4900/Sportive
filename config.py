@@ -6,8 +6,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "29462790"))
-API_HASH = getenv("API_HASH", "1fb6a2326a52026dfdb1352f9d065856")
+API_ID = int(getenv("API_ID", "25897320"))
+API_HASH = getenv("API_HASH", "cb47901d1a944cd823bd5154c9e0bc13")
 BOT_TOKEN = getenv("BOT_TOKEN", "6508386922:AAHtG3YDY1-NUhp71Rl8pgQCaAmkCYZjlvk")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
@@ -15,12 +15,12 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1001805137487"))
 OWNER_ID = int(getenv("OWNER_ID", 6076070444))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/hamza49490/konusanlaar-asistan",
+    "https://github.com/Hamza4994/azra",
 )
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/askkoleji")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/konnusanlar")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
-STRING1 = getenv("STRING_SESSION", "BACQJy8R1eW51SKFOMCYp2_KzF00DVt4gdfxu7_N5acWDUyXCw-9YjTlLtqqJEfrzP3SCBCFSqfXaNckpIU5KwBF2VDEQGKRKk7H8kjnAMYX619NI3RvEXy2wGb9Wo-rDO0iirn1HqaNHw1kEECvo3vaqxrV-JZ6WA1cJ00gZTYzftFjB7-qlC83luWOEe29_hOGaAqrNpUhCmV7AHQZQTjNLR-baWPeFwABxqwSAvCX7axI9ntd3SFnB2iBiUzRxOsq2az-137aXd3SYvFsT3T3v0soR3HpIWxkZ2I81GAiRAeltfR62gft7N5ELVKxj1Ow1jYp4HG7duVRm9II4yN9AAAAAXYax0YA")
+STRING1 = getenv("STRING_SESSION", "BQBlASYVmo-hsH-yCXfOiix5-YwWK7GV8PHhsRMQCv6egg0XHZFnNXJQwPp7QFbJUNob0y_cuQQHeWaA9BkKek_y3FMxrRQM4BswDmkJUgrfPqmW7ROWisB6sokSqp0sHm0hK7qOCPAe22jXVoWWCiQQS4524HDgWli5P63gQmP2wKz-bAVynze9_qNbamkEbFn3z9PueiJss3YGkvs4qNxE5Au0JHc8GMDrCHkjtqB2A_8D3wtGtj-ck71PSiRMrkZCqX2BuzBboKkdkZHHSetv0Y5qMHPwlwjY2b1R05UmXl0tYZuMmSghs74XZ5pKjGV17-sl9irjeSyi4ipkTDAAAAAaa9138A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
