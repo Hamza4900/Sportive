@@ -8,17 +8,17 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "25897320"))
 API_HASH = getenv("API_HASH", "cb47901d1a944cd823bd5154c9e0bc13")
-BOT_TOKEN = getenv("BOT_TOKEN", "6508386922:AAHtG3YDY1-NUhp71Rl8pgQCaAmkCYZjlvk")
+BOT_TOKEN = getenv("BOT_TOKEN", "6794353627:AAHj-XbkTcoOFxFXK6fznsU3KaYhPgMFy-Y")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001805137487"))
-OWNER_ID = int(getenv("OWNER_ID", 6076070444))
+OWNER_ID = int(getenv("OWNER_ID", 1730815895))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Hamza4994/azra",
 )
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/askkoleji")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/konnusanlar")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/gurcistanarshiwee")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 STRING1 = getenv("STRING_SESSION", "BQBlASYVmo-hsH-yCXfOiix5-YwWK7GV8PHhsRMQCv6egg0XHZFnNXJQwPp7QFbJUNob0y_cuQQHeWaA9BkKek_y3FMxrRQM4BswDmkJUgrfPqmW7ROWisB6sokSqp0sHm0hK7qOCPAe22jXVoWWCiQQS4524HDgWli5P63gQmP2wKz-bAVynze9_qNbamkEbFn3z9PueiJss3YGkvs4qNxE5Au0JHc8GMDrCHkjtqB2A_8D3wtGtj-ck71PSiRMrkZCqX2BuzBboKkdkZHHSetv0Y5qMHPwlwjY2b1R05UmXl0tYZuMmSghs74XZ5pKjGV17-sl9irjeSyi4ipkTDAAAAAaa9138A")
 STRING2 = getenv("STRING_SESSION2", None)
