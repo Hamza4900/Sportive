@@ -18,7 +18,7 @@ UPSTREAM_REPO = getenv(
     "",
 )
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/askkoleji")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/gurcistanarshiwee")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/konnusanlar")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
