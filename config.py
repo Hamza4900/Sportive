@@ -6,16 +6,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+API_ID = int(getenv("API_ID", "29869097"))
+API_HASH = getenv("API_HASH", "b011037acfaf24f5dd4b5dda104c55fe")
+BOT_TOKEN = getenv("BOT_TOKEN", "6907624117:AAG6d1TYO_eKEfNB_1bT87g9vwyDSDo1hbs")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
-OWNER_ID = int(getenv("OWNER_ID", 1730815895))
+OWNER_ID = int(getenv("OWNER_ID", 1814052601))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "",
+    "https://github.com/Hamza4900/Sportive",
 )
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/askkoleji")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/konnusanlar")
